@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36025.13
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11513.90 insiders
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octopets.Backend", "backend\Octopets.Backend.csproj", "{175D7A18-4520-69A4-9A10-13F83E88F2A0}"
 EndProject
@@ -12,6 +12,48 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{089100B1-113F-4E66-888A-E83F3999EAFD}"
 	ProjectSection(SolutionItems) = preProject
 		.vscode\mcp.json = .vscode\mcp.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{D5F93850-014F-4500-86BA-829E120A898C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "agents", "agents", "{3765F3DB-7317-4DAB-8D74-C453939BFC62}"
+	ProjectSection(SolutionItems) = preProject
+		.github\agents\accessibility.agent.md = .github\agents\accessibility.agent.md
+		.github\agents\api-specialist.agent.md = .github\agents\api-specialist.agent.md
+		.github\agents\dotnet-janitor.agent.md = .github\agents\dotnet-janitor.agent.md
+		.github\agents\mentor.agent.md = .github\agents\mentor.agent.md
+		.github\agents\test-writer.agent.md = .github\agents\test-writer.agent.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "instructions", "instructions", "{2D31A122-FA3C-4876-8B85-D5895659CB9F}"
+	ProjectSection(SolutionItems) = preProject
+		.github\instructions\api.instructions.md = .github\instructions\api.instructions.md
+		.github\instructions\database.instructions.md = .github\instructions\database.instructions.md
+		.github\instructions\frontend.instructions.md = .github\instructions\frontend.instructions.md
+		.github\instructions\polaroid.instructions.md = .github\instructions\polaroid.instructions.md
+		.github\instructions\run.instructions.md = .github\instructions\run.instructions.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prompts", "prompts", "{FB76AE95-C053-4683-A317-9EC19FA05ECF}"
+	ProjectSection(SolutionItems) = preProject
+		.github\prompts\check-dry-violations.prompt.md = .github\prompts\check-dry-violations.prompt.md
+		.github\prompts\code-injection.prompt.md = .github\prompts\code-injection.prompt.md
+		.github\prompts\new.prompt.md = .github\prompts\new.prompt.md
+		.github\prompts\plan.prompt.md = .github\prompts\plan.prompt.md
+		.github\prompts\research.prompt.md = .github\prompts\research.prompt.md
+		.github\prompts\sreagent.prompt.md = .github\prompts\sreagent.prompt.md
+		.github\prompts\test.prompt.md = .github\prompts\test.prompt.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "skills", "skills", "{73A1F8BF-71DF-4876-8E70-2357ABD0880A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "draw-io", "draw-io", "{98171E39-9F57-41AF-8E1B-36DFBEBB7A1F}"
+	ProjectSection(SolutionItems) = preProject
+		.github\skills\draw-io\azure-icons.md = .github\skills\draw-io\azure-icons.md
+		.github\skills\draw-io\checklist.md = .github\skills\draw-io\checklist.md
+		.github\skills\draw-io\examples.md = .github\skills\draw-io\examples.md
+		.github\skills\draw-io\reference.md = .github\skills\draw-io\reference.md
+		.github\skills\draw-io\SKILL.md = .github\skills\draw-io\SKILL.md
 	EndProjectSection
 EndProject
 Global
@@ -35,6 +77,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3765F3DB-7317-4DAB-8D74-C453939BFC62} = {D5F93850-014F-4500-86BA-829E120A898C}
+		{2D31A122-FA3C-4876-8B85-D5895659CB9F} = {D5F93850-014F-4500-86BA-829E120A898C}
+		{FB76AE95-C053-4683-A317-9EC19FA05ECF} = {D5F93850-014F-4500-86BA-829E120A898C}
+		{73A1F8BF-71DF-4876-8E70-2357ABD0880A} = {D5F93850-014F-4500-86BA-829E120A898C}
+		{98171E39-9F57-41AF-8E1B-36DFBEBB7A1F} = {73A1F8BF-71DF-4876-8E70-2357ABD0880A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA2BC1D1-99C4-4A3D-907C-49B595C693E7}
